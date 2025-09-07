@@ -60,7 +60,7 @@ export const Navbar = () => {
           </a>
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu font-semibold menu-horizontal px-1 gap-10">{navOptions}</ul>
+          <ul className="menu font-semibold menu-horizontal px-1 gap-10 font2">{navOptions}</ul>
         </div>
       </div>
     </div>
