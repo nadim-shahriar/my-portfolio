@@ -1,7 +1,9 @@
 import { Navbar } from "../../Shared/Navbar/Navbar";
 import { AboutMe } from "../AboutMe/AboutMe";
 import { Banner } from "../Banner/Banner";
-import { Summary } from "../Summary";
+import { Portfolio } from "../Portfolio/portfolio";
+import { Skills } from "../Skills/Skills";
+import { Summary } from "../Summary/Summary";
 
 export const Home = () => {
   return (
@@ -9,6 +11,7 @@ export const Home = () => {
       <Banner></Banner>
       <Summary></Summary>
       <AboutMe></AboutMe>
+      <Portfolio></Portfolio>
     </div>
   );
 };

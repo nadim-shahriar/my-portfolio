@@ -1,0 +1,6 @@
+.bgImage1 {
+    background-image: url('../../assets/bg5.png');
+    background-position: center -50px; /* move image up by 50px */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
