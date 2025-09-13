@@ -11,6 +11,33 @@ export const Portfolio = () => {
           </h1>
         </div>
       </div>
+      <div>
+        {/* name of each tab group should be unique */}
+        <div className="tabs rounded-none justify-center tabs-box">
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className="tab"
+            aria-label="Tab 1"
+          />
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className="tab"
+            aria-label="Tab 2"
+            defaultChecked
+          />
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className="tab"
+            aria-label="Tab 3"
+          />
+        </div>
+      </div>
+      <div className="bg-[#1A1A1A] text-white text-center p-3">
+        <p>And many more to come</p>
+      </div>
     </div>
   );
 };

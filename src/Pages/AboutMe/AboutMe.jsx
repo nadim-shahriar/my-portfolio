@@ -11,7 +11,7 @@ export const AboutMe = () => {
     <Parallax
       bgImage={bg4}
       bgImageAlt="Tech"
-      strength={-200}
+      strength={-400}
       className="h-[1300px] font2 py-[100px] text-black"
     >
       <div className="flex flex-col items-center">
@@ -38,7 +38,7 @@ export const AboutMe = () => {
               managing, and troubleshooting Cisco routers and switches, ensuring
               secure and efficient enterprise connectivity.
             </p>
-            <span className="text-7xl opacity-20 absolute -left-6  -top-5">
+            <span className="text-7xl opacity-20 absolute -left-6  -top-7">
               <SiCisco></SiCisco>
             </span>
           </div>
@@ -49,7 +49,7 @@ export const AboutMe = () => {
               applications with MongoDB, Express.js, React, and Node.js — from
               responsive frontends to secure backend APIs.
             </p>
-            <span className="text-6xl opacity-20 absolute -left-6  -top-3">
+            <span className="text-6xl opacity-20 absolute -left-6  -top-5">
               <CgWebsite></CgWebsite>
             </span>
           </div>
@@ -60,7 +60,7 @@ export const AboutMe = () => {
               managing, and troubleshooting Cisco routers and switches, ensuring
               secure and efficient enterprise connectivity.
             </p>
-            <span className="text-6xl opacity-20 absolute -left-6  -top-3">
+            <span className="text-6xl opacity-20 absolute -left-6 -top-5">
               <SiMikrotik></SiMikrotik>
             </span>
           </div>
