@@ -1,7 +1,13 @@
 import { NavLink } from "react-router-dom";
 import Logo from "../../assets/Logo.png";
+import { MdOutlineMenu } from "react-icons/md";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { RxCross1 } from "react-icons/rx";
 
 export const Navbar = () => {
+  const [menuBtn, setMenuBtn] = useState(true)
+
   const navOptions = (
     <>
       <NavLink>
@@ -27,33 +33,56 @@ export const Navbar = () => {
     </>
   );
   return (
-    <div className="max-w-screen-lg  mx-auto"> 
+    <div className="max-w-screen-lg mx-auto">
       <div className="navbar max-w-screen-lg z-10 absolute bg-transparent text-white ">
-        <div className="navbar-start">
+        <div className="navbar-start px-5 lg:px-0 w-full lg:w-1/2 flex flex-row-reverse justify-between">
+        {/* flex flex-row-reverse justify-between */}
+  
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                {" "}
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
-              </svg>
-            </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            <button
+              onClick={() => {
+                console.log("clicked", menuBtn);
+                setMenuBtn(!menuBtn);
+              }}
+              className="btn btn-ghost text-xl lg:hidden"
             >
-              {navOptions}
-            </ul>
+              <AnimatePresence mode="wait" initial={false}>
+                {menuBtn ? (
+                  <motion.span
+                    key="close"
+                    initial={{ opacity: 0, rotate: -45, scale: 0.8 }}
+                    animate={{ opacity: 1, rotate: 0, scale: 1 }}
+                    exit={{ opacity: 0, rotate: 90, scale: 0.8 }}
+                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                  >
+                    <RxCross1  className="text-black"/>
+                  </motion.span>
+                ) : (
+                  <motion.span
+                    key="menu"
+                    initial={{ opacity: 0, rotate: 45, scale: 0.8 }}
+                    animate={{ opacity: 1, rotate: 0, scale: 1 }}
+                    exit={{ opacity: 0, rotate: -90, scale: 0.8 }}
+                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                  >
+                    <MdOutlineMenu className="text-black" />
+                  </motion.span>
+                )}
+              </AnimatePresence>
+            </button>
+            <AnimatePresence>
+              {menuBtn && (
+                <motion.ul
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.25, ease: "easeInOut" }}
+                  className="menu bg-base-100 text-black rounded-box mt-3 p-2 shadow w-52 absolute right-10 lg:hidden"
+                >
+                  {navOptions}
+                </motion.ul>
+              )}
+            </AnimatePresence>
           </div>
           <a className="text-xl">
             <img className="h-[70px]" src={Logo} alt="" />

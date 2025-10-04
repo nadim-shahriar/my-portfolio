@@ -10,9 +10,9 @@ export const Footer = () => {
         <p className="uppercase text-xl font2">Back To Top</p>
       </div>
       <div className="flex justify-center text-3xl gap-5 my-5">
-        <a><AiOutlineFacebook></AiOutlineFacebook></a>
-        <a><ImGithub></ImGithub></a>
-        <a><AiOutlineLinkedin></AiOutlineLinkedin></a>
+        <a href=""><AiOutlineFacebook></AiOutlineFacebook></a>
+        <a href=""><ImGithub></ImGithub></a>
+        <a href=""><AiOutlineLinkedin></AiOutlineLinkedin></a>
         <a href=""><MdMailOutline></MdMailOutline></a>
       </div>
       <p className="text-center my-5"><b>@Nadim Shahriar</b> All Rights Reserved</p>

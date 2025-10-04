@@ -12,11 +12,11 @@ export const AboutMe = () => {
       bgImage={bg4}
       bgImageAlt="Tech"
       strength={-400}
-      className="h-[1300px] font2 py-[100px] text-black"
+      className="h-[1600px] lg:h-[1300px] font2 py-[100px] text-black"
     >
       <div className="flex flex-col items-center">
         <h1 className="text-3xl font-semibold border-4 px-10 p-2">ABOUT ME</h1>
-        <p className="px-50 text-center py-10">
+        <p className="px-4 lg:px-50 text-center py-10">
           I am Md. Nadim Shahriar Swajan. I have completed Bachelor in Comuputer
           Science & Engineering form East Dekta University, Chattogram,
           Bangladesh. I am currently exploring the world of Networing. I am
@@ -30,7 +30,7 @@ export const AboutMe = () => {
         <div className="my-[85px]">
           <img src={separator} alt="" />
         </div>
-        <div className="grid grid-cols-2 px-44 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 px-10 lg:px-44 gap-10">
           <div className="relative">
             <h2 className="text-xl uppercase font-bold">CCNA</h2>
             <p className="textarea-md">

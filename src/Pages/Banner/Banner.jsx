@@ -14,21 +14,24 @@ export const Banner = () => {
       className=""
     >
       <div>
-        <div className="h-[630px]"> </div>
-        <div className="h-[800px] w-2/3 bg-black rotate-[9deg] -top-20 -right-[160px] absolute">
+        <div className="h-[950px] lg:h-[630px]"> </div>
+        <div className=" h-[645px] z-2 lg:z-0 lg:h-[800px] w-4/3 lg:w-[800px] bg-black rotate-[-10deg] -right-16 lg:rotate-[9deg] -bottom-[235px] lg:bottom-[300px] lg:-top-20 lg:-right-[160px] absolute">
           {" "}
         </div>
-        <div className="absolute flex px-40 top-20 gap-10 font1">
-          <div className="flex flex-col justify-center w-1/2 text-black ">
+        <div className="absolute flex flex-col-reverse lg:flex-row lg:px-40 top-20 gap-10 font1">
+          <div className="lg:flex z-3 px-5 lg:flex-col justify-center lg:w-1/2 text-white lg:text-black ">
             <h2 className="text-3xl">Hi! I am</h2>
-            <h1 className="text-4xl mt-10 font-bold">
-              Md Nadim Shahriar <br /> Swajan
+            <h1 className="text-2xl lg:text-4xl lg:mt-10 font-bold">
+              Md Nadim Shahriar
+              <span className="hidden lg:inline"><br /></span>
+              <span> Swajan</span>
             </h1>
+
             <p className="text-[#686767] mt-3">
-              IT ENTHUSIAST | WEB DEVELOPMENT PROFICIENT
+              ASSISTANT ENGINEER at TEKVISION (BD) LIMITED | IT ENTHUSIAST | WEB DEVELOPMENT PROFICIENT
             </p>
 
-            <div className="flex gap-8 mt-16">
+            <div className="flex gap-8 mt-2 lg:mt-16">
               <div
                 style={{ boxShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25)" }}
                 className="bg-[#C4C4C4] rounded-sm"
@@ -51,8 +54,8 @@ export const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="w-[520px] ml-40">
-            <img className="h-[550px] " src={Me} alt="" />
+          <div className=" lg:w-[520px] lg:ml-40">
+            <img className="h-[550px]" src={Me} alt="" />
           </div>
         </div>
       </div>
