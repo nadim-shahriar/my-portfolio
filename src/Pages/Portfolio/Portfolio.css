@@ -4,3 +4,46 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.tabs .tab {
+  position: relative;
+  color: #ccc;               /* inactive text */
+  transition: color 0.3s ease;
+}
+
+.tabs .tab::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: white;   /* underline color */
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.tabs .tab:is(input:checked)::after {
+  width: 100%;               /* expand underline */
+}
+
+.tabs .tab:is(input:checked) {
+  color: white;              /* active text color */
+}
+
+
+/* Active (checked) tab style for the input-based daisyUI tabs */
+/* .tabs .tab:is(input:checked) { */
+  /* background-color: #333333; */
+  border-color: white;          /* overall border color */
+  border-bottom: 2px solid white; /* bottom border */
+  color: white;
+  
+  /* color: #00FF88; */
+  /* border-color: #00FF88;   works nicely with tabs-boxed */
+  /* border-radius: 0;         optional: square corners */
+  /* box-shadow: 0 0 0 1px #00FF88 inset; optional accent */
+/* } */
+
+/* Optional: default (inactive) tab color */
+/*.tabs .tab { color: #9CA3AF; } /* Tailwind's gray-400 */

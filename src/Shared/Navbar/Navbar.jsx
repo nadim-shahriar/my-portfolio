@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { RxCross1 } from "react-icons/rx";
 
 export const Navbar = () => {
-  const [menuBtn, setMenuBtn] = useState(true)
+  const [menuBtn, setMenuBtn] = useState(false)
 
   const navOptions = (
     <>
