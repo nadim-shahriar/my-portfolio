@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Me from "../../assets/ME2.png";
+import Me from "../../assets/me3.png";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { Parallax } from "react-parallax";
@@ -54,8 +54,8 @@ export const Banner = () => {
               </div>
             </div>
           </div>
-          <div className=" lg:w-[520px] lg:ml-40">
-            <img className="h-[550px]" src={Me} alt="" />
+          <div className=" lg:w-[450px] lg:ml-40">
+            <img className="h-[550px] pt-20" src={Me} alt="" />
           </div>
         </div>
       </div>
