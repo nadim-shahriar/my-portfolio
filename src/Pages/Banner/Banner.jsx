@@ -37,7 +37,7 @@ export const Banner = () => {
                 className="bg-[#C4C4C4] rounded-sm"
               >
                 <button className=" btn px-3 bg-[#C4C4C4] border-none text-3xl ">
-                  <Link>
+                  <Link to={'/https://github.com/nadim-shahriar'}>
                     <FaGithub></FaGithub>
                   </Link>
                 </button>
@@ -47,7 +47,7 @@ export const Banner = () => {
                 className="bg-[#C4C4C4] rounded-sm"
               >
                 <button className=" btn px-3 bg-[#C4C4C4] border-none text-3xl ">
-                  <Link>
+                  <Link to={'https://www.linkedin.com/in/nadim-shahriar'}>
                     <FaLinkedinIn></FaLinkedinIn>
                   </Link>
                 </button>
