@@ -1,7 +1,6 @@
 import { Parallax } from "react-parallax";
 import { Navbar2 } from "../../Shared/Navbar/Navbar2";
 import edu from "../../../src/assets/edu.jpg";
-import clg from "../../../src/assets/clg.jpg";
 import "./AboutMe.css";
 
 export const AboutMe2 = () => {

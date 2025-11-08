@@ -1,6 +1,6 @@
 import { Parallax } from "react-parallax";
 import bg4 from "../../assets/bg4.jpg";
-import separator from "../../assets/separator.png";
+import separator from "../../../src/assets/Separator.png";
 import { SiCisco, SiMikrotik } from "react-icons/si";
 import { FaConnectdevelop } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
