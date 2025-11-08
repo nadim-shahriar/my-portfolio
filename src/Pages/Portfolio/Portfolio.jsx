@@ -66,9 +66,9 @@ export const Portfolio = () => {
         {activeTab === "designed" && (
           <div>
             <h2 className="text-2xl font-semibold mb-4">Designed Projects</h2>
-            {/* <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 mb-6">
               Creative UI/UX and visual design work.
-            </p> */}
+            </p>
 
             <div>
               <div className="grid lg:grid-cols-3 gap-5">

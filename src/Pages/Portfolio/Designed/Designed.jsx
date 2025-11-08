@@ -11,16 +11,15 @@ import pr10 from "../../../../src/assets/aiu.png";
 import pr11 from "../../../../src/assets/pw.png";
 import pr12 from "../../../../src/assets/tw.png";
 import pr13 from "../../../../src/assets/wpr.png";
-import { div } from "framer-motion/client";
 import { Link } from "react-router-dom";
 import { Navbar2 } from "../../../Shared/Navbar/Navbar2";
 
 export const Designed = () => {
   return (
     <div className="container mx-auto text-center mb-10">
-        <Navbar2></Navbar2>
-        {/* <Link to={'/'} className=""><button className="font1 btn my-5 font-bold">Go to Home</button></Link> */}
-      <h2 className="text-2xl mb-10 text-center font-semibold ">Designed Projects</h2>
+      <Navbar2></Navbar2>
+      {/* <Link to={'/'} className=""><button className="font1 btn my-5 font-bold">Go to Home</button></Link> */}
+      <h2 className="text-2xl font-semibold mb-4 mt-8">Designed Projects</h2>
       <div className="grid lg:grid-cols-3 gap-5">
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
