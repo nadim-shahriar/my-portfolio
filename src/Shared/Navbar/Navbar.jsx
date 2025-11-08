@@ -6,38 +6,42 @@ import { motion, AnimatePresence } from "framer-motion";
 import { RxCross1 } from "react-icons/rx";
 
 export const Navbar = () => {
-  const [menuBtn, setMenuBtn] = useState(false)
+  const [menuBtn, setMenuBtn] = useState(false);
 
   const navOptions = (
     <>
-      <NavLink>
-        <li>
-          <a>About Me</a>
-        </li>
-      </NavLink>
-      <NavLink>
-        <li>
-          <a>Skills</a>
-        </li>
-      </NavLink>
-      <NavLink>
-        <li>
-          <a>Portfolio</a>
-        </li>
-      </NavLink>
-      <NavLink>
-        <li>
-          <a className="bg-white text-black rounded-2xl">Contact Me</a>
-        </li>
-      </NavLink>
+      <li>
+        <a href="#about" onClick={() => setMenuBtn(false)}>
+          About Me
+        </a>
+      </li>
+      <li >
+        <a href="/skills" onClick={() => setMenuBtn(false)}>
+          Skills
+        </a>
+      </li>
+      <li >
+        <a href="#portfolio" onClick={() => setMenuBtn(false)}>
+          Portfolio
+        </a>
+      </li>
+      <li>
+        <a
+          href="#contact"
+          onClick={() => setMenuBtn(false)}
+          className="bg-white text-black rounded-2xl"
+        >
+          Contact Me
+        </a>
+      </li>
     </>
   );
   return (
-    <div className="max-w-screen-lg mx-auto">
-      <div className="navbar max-w-screen-lg z-10 absolute bg-transparent text-white ">
+    <div className="max-w-screen-lg  mx-auto">
+      <div className="navbar max-w-screen-lg z-10 absolute lg:fixed bg-transparent text-white ">
         <div className="navbar-start px-5 lg:px-0 w-full lg:w-1/2 flex flex-row-reverse justify-between">
-        {/* flex flex-row-reverse justify-between */}
-  
+          {/* flex flex-row-reverse justify-between */}
+
           <div className="dropdown">
             <button
               onClick={() => {
@@ -55,7 +59,7 @@ export const Navbar = () => {
                     exit={{ opacity: 0, rotate: 90, scale: 0.8 }}
                     transition={{ duration: 0.25, ease: "easeInOut" }}
                   >
-                    <RxCross1  className="text-black"/>
+                    <RxCross1 className="text-black" />
                   </motion.span>
                 ) : (
                   <motion.span
@@ -89,7 +93,9 @@ export const Navbar = () => {
           </a>
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu font-semibold menu-horizontal px-1 gap-10 font2">{navOptions}</ul>
+          <ul className="menu font-semibold menu-horizontal px-1 gap-10 font2">
+            {navOptions}
+          </ul>
         </div>
       </div>
     </div>

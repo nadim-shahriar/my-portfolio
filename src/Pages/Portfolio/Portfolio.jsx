@@ -1,11 +1,19 @@
 import { useState } from "react";
 import "./Portfolio.css";
+import { Designed } from "./Designed/Designed";
+import pr1 from "../../../src/assets/rekc.png";
+import pr2 from "../../../src/assets/restte.png";
+import pr3 from "../../../src/assets/chta.png";
+import pr4 from "../../../src/assets/st.png";
+import pr5 from "../../../src/assets/th.png";
+import pr6 from "../../../src/assets/ac.png";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Portfolio = () => {
   const [activeTab, setActiveTab] = useState("designed");
 
-  // Tab names in your desired order
   const tabs = ["all", "designed", "coded"];
+  const navigate = useNavigate();
 
   return (
     <div className="bgImage1 bg-fixed mb-10">
@@ -46,7 +54,11 @@ export const Portfolio = () => {
               A mix of coded and designed projects.
             </p>
             <div className="grid  gap-6">
-              <a href=""><div className="bg-gray-800 p-6 rounded-lg">💻 GitHub Portfolio</div></a>
+              <a href="https://github.com/nadim-shahriar">
+                <div className="bg-gray-800 p-6 rounded-lg">
+                  💻 GitHub Portfolio
+                </div>
+              </a>
             </div>
           </div>
         )}
@@ -54,15 +66,143 @@ export const Portfolio = () => {
         {activeTab === "designed" && (
           <div>
             <h2 className="text-2xl font-semibold mb-4">Designed Projects</h2>
-            <p className="text-gray-300 mb-6">
+            {/* <p className="text-gray-300 mb-6">
               Creative UI/UX and visual design work.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div>
-                <div className="bg-gray-800 p-6 rounded-lg">🎨 Landing Page Design</div>
+            </p> */}
+
+            <div>
+              <div className="grid lg:grid-cols-3 gap-5">
+                <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
+                  <figure className="w-full h-full brightness-150">
+                    <img
+                      src={pr4}
+                      alt="Shoes"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title font1 font-bold">
+                      Smart Ticketing
+                    </h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <a href="https://smrtticket.netlify.app/">
+                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                          Visit Demo
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
+                  <figure className="w-full h-full brightness-150">
+                    <img
+                      src={pr2}
+                      alt="Shoes"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title font1 font-bold">Real State</h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <a href="https://realste.netlify.app/">
+                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                          Visit Demo
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
+                  <figure className="w-full h-full brightness-150">
+                    <img
+                      src={pr3}
+                      alt="Shoes"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title font1 font-bold">Chefs Table</h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <a href="https://chefstble.netlify.app/">
+                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                          Visit Demo
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
+                  <figure className="w-full h-full brightness-150">
+                    <img
+                      src={pr1}
+                      alt="Shoes"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title font1 font-bold">
+                      Knowladge Cafe
+                    </h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <a href="https://reknca.netlify.app/">
+                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                          Visit Demo
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
+                  <figure className="w-full h-full brightness-150">
+                    <img
+                      src={pr5}
+                      alt="Shoes"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title font1 font-bold">Tea House</h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <a href="https://teah0use.netlify.app/">
+                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                          Visit Demo
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
+                  <figure className="w-full h-full brightness-150">
+                    <img
+                      src={pr6}
+                      alt="Shoes"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title font1 font-bold">Alpha Clash</h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <a href="https://incandescent-concha-b867e7.netlify.app/">
+                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                          Visit Demo
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="bg-gray-800 p-6 rounded-lg">🖌️ Mobile App UI</div>
-              <div className="bg-gray-800 p-6 rounded-lg">🧩 Logo Design</div>
+              <button
+                onClick={() => navigate("/designed")}
+                className="btn my-6 font1 font-bold px-5"
+              >
+                See all
+              </button>
             </div>
           </div>
         )}
@@ -73,19 +213,18 @@ export const Portfolio = () => {
             <p className="text-gray-300 mb-6">
               Web and app projects built using modern frameworks.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-gray-800 p-6 rounded-lg">⚡ React Portfolio</div>
-              <div className="bg-gray-800 p-6 rounded-lg">🛒 E-commerce Website</div>
-              <div className="bg-gray-800 p-6 rounded-lg">📂 Dashboard App</div>
+            <div className="">
+              <a href="https://github.com/nadim-shahriar?tab=repositories">
+                <div className="bg-gray-800 p-6 rounded-lg">⚡ CODE</div>
+              </a>
             </div>
           </div>
         )}
-
       </div>
 
       {/* Footer */}
-      <div className="bg-[#1A1A1A] text-white text-center p-3">
-        <p>And many more to come</p>
+      <div className="bg-black/70 text-white text-center p-3">
+        <p className="font2 font-bold">And many more to come</p>
       </div>
     </div>
   );

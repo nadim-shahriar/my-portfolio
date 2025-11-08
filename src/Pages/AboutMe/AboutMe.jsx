@@ -5,6 +5,7 @@ import { SiCisco, SiMikrotik } from "react-icons/si";
 import { FaConnectdevelop } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { Skills } from "../Skills/Skills";
+import { Link } from "react-router-dom";
 
 export const AboutMe = () => {
   return (
@@ -23,10 +24,10 @@ export const AboutMe = () => {
           serving as an Assistant Engineering(Service Management) at TekVision,
           a sister Consern of Youngone Ind. Ltd.{" "}
         </p>
-        <button className="btn mt-4 text-black uppercase bg-transparent border-black border-2 border-y-0 rounded-none shadow-none">
+        <Link to={'/aboutme'}><button className="btn mt-4 text-black uppercase bg-transparent border-black border-2 border-y-0 rounded-none shadow-none">
           {" "}
           Explore More
-        </button>
+        </button></Link>
         <div className="my-[85px]">
           <img src={separator} alt="" />
         </div>
@@ -68,7 +69,10 @@ export const AboutMe = () => {
         <div className="my-[85px]">
           <img src={separator} alt="" />
         </div>
-        <Skills></Skills>
+        <div id="skills">
+          <Skills></Skills>
+        </div>
+        
       </div>
     </Parallax>
   );
