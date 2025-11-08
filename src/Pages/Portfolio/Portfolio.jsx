@@ -76,7 +76,6 @@ export const Portfolio = () => {
                   <figure className="w-full h-full brightness-150">
                     <img
                       src={pr4}
-                      alt="Shoes"
                       className="w-full h-full object-cover object-top"
                     />
                   </figure>
@@ -98,7 +97,6 @@ export const Portfolio = () => {
                   <figure className="w-full h-full brightness-150">
                     <img
                       src={pr2}
-                      alt="Shoes"
                       className="w-full h-full object-cover object-top"
                     />
                   </figure>
@@ -118,7 +116,6 @@ export const Portfolio = () => {
                   <figure className="w-full h-full brightness-150">
                     <img
                       src={pr3}
-                      alt="Shoes"
                       className="w-full h-full object-cover object-top"
                     />
                   </figure>
@@ -138,7 +135,6 @@ export const Portfolio = () => {
                   <figure className="w-full h-full brightness-150">
                     <img
                       src={pr1}
-                      alt="Shoes"
                       className="w-full h-full object-cover object-top"
                     />
                   </figure>
@@ -160,7 +156,6 @@ export const Portfolio = () => {
                   <figure className="w-full h-full brightness-150">
                     <img
                       src={pr5}
-                      alt="Shoes"
                       className="w-full h-full object-cover object-top"
                     />
                   </figure>
@@ -180,7 +175,6 @@ export const Portfolio = () => {
                   <figure className="w-full h-full brightness-150">
                     <img
                       src={pr6}
-                      alt="Shoes"
                       className="w-full h-full object-cover object-top"
                     />
                   </figure>
