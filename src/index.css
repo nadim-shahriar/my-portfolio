@@ -13,3 +13,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.parallax-bg {
+  background-position: center 70% !important;
+}

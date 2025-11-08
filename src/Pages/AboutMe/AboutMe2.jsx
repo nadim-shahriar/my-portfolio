@@ -20,8 +20,9 @@ export const AboutMe2 = () => {
       <Parallax
         bgImage={edu}
         bgImageAlt="Tech"
-        strength={-300}
-        className=" h-[600px] font2 py-[100px] text-black"
+        strength={-400}
+        className="parallax-bg h-[650px] font2 py-[100px] text-black"
+        bgImageStyle={{ objectPosition: "40%" }}
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 px-10 lg:px-44 gap-10">
           <div className="relative">
