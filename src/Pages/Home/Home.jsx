@@ -11,7 +11,9 @@ export const Home = () => {
   return (
     <div className="bg-[#D7D7D7]">
       <Navbar />
-      <Banner />
+      <section id="banner">
+        <Banner />
+      </section>
       <Summary />
 
       {/* Add IDs for smooth scroll targets */}
