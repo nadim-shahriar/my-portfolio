@@ -20,7 +20,7 @@ export const Skills2 = () => {
       <Navbar2></Navbar2>
       <div className="flex flex-col items-center">
         <h1 className="text-3xl  font-semibold border-4 px-16 p-2">SKILLS</h1>
-        <div className="my-12 w-2/4">
+        <div className="my-12 w-full lg:w-3/4">
           <Marquee>
             <div className="mr-16">
               <img className="h-[100px]" src={ccna} alt="" />
