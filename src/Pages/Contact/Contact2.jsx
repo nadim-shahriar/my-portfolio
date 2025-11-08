@@ -1,4 +1,4 @@
-import separator from "../../assets/separator.png";
+import separator from "../../../src/assets/Separator.png";
 import { Navbar2 } from "../../Shared/Navbar/Navbar2";
 
 
