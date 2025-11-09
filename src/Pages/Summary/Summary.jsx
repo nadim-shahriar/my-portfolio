@@ -19,10 +19,10 @@ export const Summary = () => {
     style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="hidden lg:flex">
-        <div className="text-[300px] text-black lg:right-20 -bottom-10 lg:-bottom-10 lg:rotate-[24deg] absolute">
+        <div className="text-[300px] text-black lg:right-24 -bottom-10 lg:-bottom-10 lg:rotate-[24deg] absolute">
           IT
         </div>
-        <div className="lg:-right-11 lg:top-0 lg:-bottom-10  absolute">
+        <div className="lg:-right-0 lg:-top-8 lg:-bottom-10  absolute">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="454"
