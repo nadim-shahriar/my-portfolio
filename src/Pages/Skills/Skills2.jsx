@@ -18,7 +18,7 @@ export const Skills2 = () => {
   return (
     <div>
       <Navbar2></Navbar2>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mt-5">
         <h1 className="text-3xl  font-semibold border-4 px-16 p-2">SKILLS</h1>
         <div className="my-12 w-full lg:w-3/4">
           <Marquee>
