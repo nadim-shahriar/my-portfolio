@@ -13,6 +13,7 @@ export const Navbar2 = () => {
       <li>
         <NavLink
           to="/"
+          end
           onClick={() => setMenuBtn(false)}
           className={({ isActive }) =>
             isActive ? "bg-black text-white rounded-2xl px-3 py-1" : ""
