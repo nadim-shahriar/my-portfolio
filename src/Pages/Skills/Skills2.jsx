@@ -16,7 +16,7 @@ import { Navbar2 } from "../../Shared/Navbar/Navbar2";
 
 export const Skills2 = () => {
   return (
-    <div >
+    <div>
       <Navbar2></Navbar2>
       <div className="flex flex-col items-center">
         <h1 className="text-3xl  font-semibold border-4 px-16 p-2">SKILLS</h1>
@@ -101,6 +101,50 @@ export const Skills2 = () => {
               </h3>
             </div>
           </Marquee>
+          <div className="font2 my-10">
+            <section>
+              <p className="font-bold text-2xl my-2">
+                Technical Skills <br />
+              </p>
+              <p>
+                <span className="font-bold">Languages:</span> Java, Python,
+                C/C++, MySQL, JavaScript, HTML/CSS, LaTeX.
+                <br />
+              </p>
+              <p>
+                <span className="font-bold">Frameworks & Libraries:</span>{" "}
+                React, Node.js, Keras, TensorFlow, NumPy, REST API.
+              </p>
+              <p>
+                <span className="font-bold">
+                  Developer & Business Analysis Tools:
+                </span>{" "}
+                Git, Cisco Packet Tracer, Docker, TravisCI, Google Cloud
+                Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse,
+                Figma, Google Colab, Microsoft Excel, Google Sheets, SQL,
+                Microsoft PowerPoint.
+              </p>
+              <p>
+                <span className="font-bold">Networking & Infrastructure:</span>{" "}
+                Routing & Switching, IP Addressing, Subnetting, VLANs, DHCP,
+                NAT, PPPoE, OLT Configuration, Wireless Configuration.
+              </p>
+              <p>
+                <span className="font-bold">
+                  Requirements Gathering & Docs:
+                </span>{" "}
+                Use Case Diagrams, User Stories, Flowcharts.
+              </p>
+              <p className="font-bold text-2xl my-2">
+                Soft Skills <br />
+              </p>
+              <p>
+                Analytical and Critical Thinking, Communication,
+                Problem-Solving, Stakeholder Management, Adaptability, Time
+                Management, Team Collaboration, Leadership, Attention to Detail.
+              </p>
+            </section>
+          </div>
         </div>
       </div>
     </div>
