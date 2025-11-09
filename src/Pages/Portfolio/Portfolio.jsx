@@ -193,7 +193,7 @@ export const Portfolio = () => {
               </div>
               <button
                 onClick={() => navigate("/designed")}
-                className="btn my-6 bg-transparent border-none text-white font1 font-bold px-5"
+                className="btn my-6 bg-black/50 border-none text-white font1 font-bold px-5"
               >
                 See all
               </button>
