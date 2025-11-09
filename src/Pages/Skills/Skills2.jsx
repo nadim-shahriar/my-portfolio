@@ -101,9 +101,9 @@ export const Skills2 = () => {
               </h3>
             </div>
           </Marquee>
-          <div className="font2 my-10">
+          <div className="font2 px-5 lg:px-0 my-10">
             <section>
-              <p className="font-bold text-2xl my-2">
+              <p className="font-bold text-xl lg:text-2xl my-2">
                 Technical Skills <br />
               </p>
               <p>
@@ -135,7 +135,7 @@ export const Skills2 = () => {
                 </span>{" "}
                 Use Case Diagrams, User Stories, Flowcharts.
               </p>
-              <p className="font-bold text-2xl mb-2 mt-5">
+              <p className="font-bold text-xl lg:text-2xl mb-2 mt-5">
                 Soft Skills <br />
               </p>
               <p>
