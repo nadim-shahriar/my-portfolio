@@ -55,7 +55,7 @@ export const Portfolio = () => {
             </p>
             <div className="grid  gap-6">
               <a href="https://github.com/nadim-shahriar">
-                <div className="bg-gray-800 p-6 rounded-lg">
+                <div className="bg-black/70 p-6 rounded-lg">
                   💻 GitHub Portfolio
                 </div>
               </a>
@@ -209,7 +209,7 @@ export const Portfolio = () => {
             </p>
             <div className="">
               <a href="https://github.com/nadim-shahriar?tab=repositories">
-                <div className="bg-gray-800 p-6 rounded-lg">⚡ CODE</div>
+                <div className="bg-black/70 p-6 rounded-lg">⚡ CODE</div>
               </a>
             </div>
           </div>
