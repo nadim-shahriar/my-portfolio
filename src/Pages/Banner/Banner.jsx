@@ -15,7 +15,7 @@ export const Banner = () => {
     >
       <div>
         <div className="h-[950px] lg:h-[630px]"> </div>
-        <div className=" h-[645px] z-2 lg:z-0 lg:h-[800px] w-4/3 lg:w-[800px] bg-black rotate-[-10deg] -right-16 lg:rotate-[9deg] -bottom-[235px] lg:bottom-[300px] lg:-top-20 lg:-right-[160px] absolute">
+        <div className=" h-[645px] z-2 lg:z-0 lg:h-[800px] w-4/3 lg:w-[800px] bg-black rotate-[-10deg] -right-16 lg:rotate-[9deg] -bottom-[235px] lg:bottom-[300px] lg:-top-20 lg:-right-[160px] absolute shadow-2xl shadow-black">
           {" "}
         </div>
         <div className="absolute flex flex-col-reverse lg:flex-row lg:px-40 top-20 gap-10 font1">
@@ -55,7 +55,7 @@ export const Banner = () => {
             </div>
           </div>
           <div className=" lg:w-[450px] lg:ml-40">
-            <img className="h-[550px] pt-20" src={Me} alt="" />
+            <img className="h-[550px] pt-20 " src={Me} alt="" />
           </div>
         </div>
       </div>
