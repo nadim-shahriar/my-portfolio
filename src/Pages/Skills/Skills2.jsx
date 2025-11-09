@@ -135,7 +135,7 @@ export const Skills2 = () => {
                 </span>{" "}
                 Use Case Diagrams, User Stories, Flowcharts.
               </p>
-              <p className="font-bold text-2xl my-2">
+              <p className="font-bold text-2xl mb-2 mt-5">
                 Soft Skills <br />
               </p>
               <p>
