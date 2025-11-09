@@ -48,7 +48,7 @@ export const AboutMe2 = () => {
         </div>
       </Parallax>
       <div className="  font2 text-white"
-      style={{ backgroundImage: `url(${bgimg1})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
+      style={{ backgroundImage: `url(${bgimg1})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
         <div className="bg-black/50 py-50 grid grid-cols-1 lg:grid-cols-2 px-10 lg:px-44 gap-10">
           <div className="relative">
