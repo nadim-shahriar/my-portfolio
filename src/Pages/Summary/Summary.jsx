@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import './Summary.css'
+// import './Summary.css'
+import bgImage from '../../assets/bg2.jpg';
 
 export const Summary = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -14,7 +15,9 @@ export const Summary = () => {
   }, []);
 
   return (
-    <div className="bgImage bg-fixed font2 text-sm p-0 lg:p-20 text-white lg:text-black font-medium relative ">
+    <div className="bgImage bg-fixed font2 text-sm p-0 lg:p-20 text-white lg:text-black font-medium relative "
+    style={{ backgroundImage: `url(${bgImage})` }}
+    >
       <div className="hidden lg:flex">
         <div className="text-[300px] text-black lg:right-20 -bottom-10 lg:-bottom-10 lg:rotate-[24deg] absolute">
           IT
