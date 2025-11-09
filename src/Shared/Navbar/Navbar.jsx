@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import Logo from "../../assets/Logo.png";
 import { MdOutlineMenu } from "react-icons/md";
 import { useState } from "react";
@@ -8,34 +7,59 @@ import { RxCross1 } from "react-icons/rx";
 export const Navbar = () => {
   const [menuBtn, setMenuBtn] = useState(false);
 
+  const [activeSection, setActiveSection] = useState("");
+
   const navOptions = (
     <>
       <li>
-        <a href="#about" onClick={() => setMenuBtn(false)}>
+        <a
+          href="#about"
+          onClick={() => setActiveSection("about")}
+          className={
+            activeSection === "about" ? "bg-white text-black rounded-2xl" : ""
+          }
+        >
           About Me
         </a>
       </li>
-      <li >
-        <a href="/skills" onClick={() => setMenuBtn(false)}>
+      <li>
+        <a
+          href="/skills"
+          onClick={() => setActiveSection("skills")}
+          className={
+            activeSection === "skills" ? "bg-white text-black rounded-2xl" : ""
+          }
+        >
           Skills
         </a>
       </li>
-      <li >
-        <a href="#portfolio" onClick={() => setMenuBtn(false)}>
+      <li>
+        <a
+          href="#portfolio"
+          onClick={() => setActiveSection("portfolio")}
+          className={
+            activeSection === "portfolio"
+              ? "bg-white text-black rounded-2xl"
+              : ""
+          }
+        >
           Portfolio
         </a>
       </li>
       <li>
         <a
           href="#contact"
-          onClick={() => setMenuBtn(false)}
-          className="bg-white text-black rounded-2xl"
+          onClick={() => setActiveSection("contact")}
+          className={
+            activeSection === "contact" ? "bg-white text-black rounded-2xl" : ""
+          }
         >
           Contact Me
         </a>
       </li>
     </>
   );
+
   return (
     <div className="max-w-screen-lg  mx-auto">
       <div className="navbar max-w-screen-lg z-10 absolute lg:fixed bg-transparent text-white ">

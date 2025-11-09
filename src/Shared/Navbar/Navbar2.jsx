@@ -11,39 +11,61 @@ export const Navbar2 = () => {
   const navOptions = (
     <>
       <li>
-        <a href="/" onClick={() => setMenuBtn(false)}>
+        <NavLink
+          to="/"
+          onClick={() => setMenuBtn(false)}
+          className={({ isActive }) =>
+            isActive ? "bg-black text-white rounded-2xl px-3 py-1" : ""
+          }
+        >
           Home
-        </a>
+        </NavLink>
       </li>
       <li>
-        <a href="/aboutme" onClick={() => setMenuBtn(false)}>
+        <NavLink
+          to="/aboutme"
+          onClick={() => setMenuBtn(false)}
+          className={({ isActive }) =>
+            isActive ? "bg-black text-white rounded-2xl px-3 py-1" : ""
+          }
+        >
           About Me
-        </a>
+        </NavLink>
       </li>
       <li>
-        <a href="/skills" onClick={() => setMenuBtn(false)}>
+        <NavLink
+          to="/skills"
+          onClick={() => setMenuBtn(false)}
+          className={({ isActive }) =>
+            isActive ? "bg-black text-white rounded-2xl px-3 py-1" : ""
+          }
+        >
           Skills
-        </a>
+        </NavLink>
       </li>
       <li>
         <a
           href="https://github.com/nadim-shahriar?tab=repositories"
           onClick={() => setMenuBtn(false)}
+          className="hover:bg-black hover:text-white rounded-2xl px-3 py-1"
         >
           Portfolio
         </a>
       </li>
       <li>
-        <a
-          href="/contact"
+        <NavLink
+          to="/contact"
           onClick={() => setMenuBtn(false)}
-          className="bg-white text-black rounded-2xl"
+          className={({ isActive }) =>
+            isActive ? "bg-black text-white rounded-2xl px-3 py-1" : ""
+          }
         >
           Contact Me
-        </a>
+        </NavLink>
       </li>
     </>
   );
+
   return (
     <div className="max-w-screen-lg  mx-auto">
       <div className="navbar max-w-screen-lg z-10  bg-transparent text-black ">
