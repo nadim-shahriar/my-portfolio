@@ -22,7 +22,7 @@ export const AboutMe = () => {
           Science & Engineering form East Dekta University, Chattogram,
           Bangladesh. I am currently exploring the world of Networing. I am
           serving as an Assistant Engineering(Service Management) at TekVision,
-          a sister Consern of Youngone Ind. Ltd.{" "}
+          a sister Consern of Youngone Holdings.{" "}
         </p>
         <Link to={'/aboutme'}><button className="btn mt-4 text-black uppercase bg-transparent border-black border-2 border-y-0 rounded-none shadow-none">
           {" "}
