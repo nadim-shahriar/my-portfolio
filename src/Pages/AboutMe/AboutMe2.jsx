@@ -1,7 +1,7 @@
 import { Parallax } from "react-parallax";
 import { Navbar2 } from "../../Shared/Navbar/Navbar2";
 import edu from "../../../src/assets/edu.jpg";
-import "./AboutMe.css";
+import bgimg1 from '../../assets/clg.jpg'
 
 export const AboutMe2 = () => {
   return (
@@ -47,7 +47,9 @@ export const AboutMe2 = () => {
           </div>
         </div>
       </Parallax>
-      <div className="bgimg1  font2 text-white">
+      <div className="  font2 text-white"
+      style={{ backgroundImage: `url(${bgimg1})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
+      >
         <div className="bg-black/50 py-50 grid grid-cols-1 lg:grid-cols-2 px-10 lg:px-44 gap-10">
           <div className="relative">
             <h2 className="text-xl uppercase font-bold">
