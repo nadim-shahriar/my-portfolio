@@ -27,7 +27,7 @@ export const Portfolio = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex justify-center bg-[#1A1A1A] py-8 space-x-6">
+      <div className="flex justify-center bg-[#1A1A1A]/90 py-8 space-x-6">
         {tabs.map((tab) => (
           <label key={tab} className="relative cursor-pointer">
             <input
@@ -46,7 +46,7 @@ export const Portfolio = () => {
       </div>
 
       {/* Tab Content (Centered) */}
-      <div className="bg-[#1A1A1A] text-white flex justify-center items-center text-center min-h-[40vh] p-10">
+      <div className="bg-[#1A1A1A]/80 text-white flex justify-center items-center text-center min-h-[40vh] p-10">
         {activeTab === "all" && (
           <div>
             <h2 className="text-2xl font-semibold mb-4">All Projects</h2>
@@ -193,7 +193,7 @@ export const Portfolio = () => {
               </div>
               <button
                 onClick={() => navigate("/designed")}
-                className="btn my-6 font1 font-bold px-5"
+                className="btn my-6 bg-transparent border-none text-white font1 font-bold px-5"
               >
                 See all
               </button>
@@ -218,7 +218,7 @@ export const Portfolio = () => {
 
       {/* Footer */}
       <div className="bg-black/70 text-white text-center p-3">
-        <p className="font2 font-bold">And many more to come</p>
+        <p className="font2 font-semibold">And many more to come.</p>
       </div>
     </div>
   );
