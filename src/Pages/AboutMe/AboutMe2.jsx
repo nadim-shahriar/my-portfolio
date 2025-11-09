@@ -7,7 +7,7 @@ export const AboutMe2 = () => {
   return (
     <div>
       <Navbar2></Navbar2>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mt-5">
         <h1 className="text-3xl font-semibold border-4 px-10 p-2">ABOUT ME</h1>
         <p className="px-4 lg:px-50 text-center py-10">
           I am Md. Nadim Shahriar Swajan. I have completed Bachelor in Comuputer
