@@ -73,7 +73,7 @@ export const Portfolio = () => {
             <div>
               <div className="grid lg:grid-cols-3 gap-5">
                 <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-                  <figure className="w-full h-full brightness-150">
+                  <figure className="w-full h-full brightness-200">
                     <img
                       src={pr4}
                       className="w-full h-full object-cover object-top"
@@ -94,7 +94,7 @@ export const Portfolio = () => {
                   </div>
                 </div>
                 <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-                  <figure className="w-full h-full brightness-150">
+                  <figure className="w-full h-full brightness-200">
                     <img
                       src={pr2}
                       className="w-full h-full object-cover object-top"
@@ -113,7 +113,7 @@ export const Portfolio = () => {
                   </div>
                 </div>
                 <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-                  <figure className="w-full h-full brightness-150">
+                  <figure className="w-full h-full brightness-200">
                     <img
                       src={pr3}
                       className="w-full h-full object-cover object-top"
@@ -132,7 +132,7 @@ export const Portfolio = () => {
                   </div>
                 </div>
                 <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-                  <figure className="w-full h-full brightness-150">
+                  <figure className="w-full h-full brightness-200">
                     <img
                       src={pr1}
                       className="w-full h-full object-cover object-top"
@@ -153,7 +153,7 @@ export const Portfolio = () => {
                   </div>
                 </div>
                 <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-                  <figure className="w-full h-full brightness-150">
+                  <figure className="w-full h-full brightness-200">
                     <img
                       src={pr5}
                       className="w-full h-full object-cover object-top"
@@ -172,7 +172,7 @@ export const Portfolio = () => {
                   </div>
                 </div>
                 <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-                  <figure className="w-full h-full brightness-150">
+                  <figure className="w-full h-full brightness-200">
                     <img
                       src={pr6}
                       className="w-full h-full object-cover object-top"

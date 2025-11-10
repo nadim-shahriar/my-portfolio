@@ -25,7 +25,7 @@ export const Designed = () => {
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr4} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -41,7 +41,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr2} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -57,7 +57,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr3} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -73,7 +73,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr1} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -89,7 +89,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr5} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -105,7 +105,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr6} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -121,7 +121,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr7} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -137,7 +137,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr8} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -153,7 +153,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr9} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -169,7 +169,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr10} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -185,7 +185,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr11} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -201,7 +201,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr12} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
@@ -217,7 +217,7 @@ export const Designed = () => {
           </div>
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
-          <figure className="w-full h-full brightness-150">
+          <figure className="w-full h-full brightness-200">
             <img src={pr13} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
