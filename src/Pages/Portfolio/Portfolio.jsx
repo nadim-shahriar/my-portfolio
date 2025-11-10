@@ -20,7 +20,7 @@ export const Portfolio = () => {
       {/* Header */}
       <div className="bg-black/50">
         <div className="flex p-20 justify-center">
-          <h1 className="text-3xl tracking-widest text-black font2 font-semibold border-4 px-10 p-2">
+          <h1 className="text-3xl uppercase tracking-widest text-black font2 font-semibold border-4 px-10 p-2">
             Portfolio
           </h1>
         </div>
@@ -55,7 +55,7 @@ export const Portfolio = () => {
             </p>
             <div className="grid  gap-6">
               <a href="https://github.com/nadim-shahriar">
-                <div className="bg-black/70 p-6 rounded-lg">
+                <div className="bg-black/70 p-6 hover:bg-base-300/10 rounded-lg">
                   💻 GitHub Portfolio
                 </div>
               </a>
@@ -86,7 +86,7 @@ export const Portfolio = () => {
                     <p></p>
                     <div className="card-actions justify-end">
                       <a href="https://smrtticket.netlify.app/">
-                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                        <button className="btn bg-black/40 hover:bg-base-300/10  border-none text-white font1 font-bold px-5">
                           Visit Demo
                         </button>
                       </a>
@@ -105,7 +105,7 @@ export const Portfolio = () => {
                     <p></p>
                     <div className="card-actions justify-end">
                       <a href="https://realste.netlify.app/">
-                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                        <button className="btn bg-black/40 hover:bg-base-300/10  border-none text-white font1 font-bold px-5">
                           Visit Demo
                         </button>
                       </a>
@@ -124,7 +124,7 @@ export const Portfolio = () => {
                     <p></p>
                     <div className="card-actions justify-end">
                       <a href="https://chefstble.netlify.app/">
-                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                        <button className="btn bg-black/40 hover:bg-base-300/10  border-none text-white font1 font-bold px-5">
                           Visit Demo
                         </button>
                       </a>
@@ -145,7 +145,7 @@ export const Portfolio = () => {
                     <p></p>
                     <div className="card-actions justify-end">
                       <a href="https://reknca.netlify.app/">
-                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                        <button className="btn bg-black/40 hover:bg-base-300/10  border-none text-white font1 font-bold px-5">
                           Visit Demo
                         </button>
                       </a>
@@ -164,7 +164,7 @@ export const Portfolio = () => {
                     <p></p>
                     <div className="card-actions justify-end">
                       <a href="https://teah0use.netlify.app/">
-                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                        <button className="btn bg-black/40 hover:bg-base-300/10  border-none text-white font1 font-bold px-5">
                           Visit Demo
                         </button>
                       </a>
@@ -183,7 +183,7 @@ export const Portfolio = () => {
                     <p></p>
                     <div className="card-actions justify-end">
                       <a href="https://incandescent-concha-b867e7.netlify.app/">
-                        <button className="btn font1 border-none text-shadow-cyan-950 font-bold bg-gradient-to-r from-emerald-700 to-emerald-200">
+                        <button className="btn bg-black/40 hover:bg-base-300/10  border-none text-white font1 font-bold px-5">
                           Visit Demo
                         </button>
                       </a>
@@ -193,7 +193,7 @@ export const Portfolio = () => {
               </div>
               <button
                 onClick={() => navigate("/designed")}
-                className="btn my-6 bg-black/50 border-none text-white font1 font-bold px-5"
+                className="btn my-6 bg-black/50 hover:bg-base-300/10  border-none text-white font1 font-bold px-5"
               >
                 See all
               </button>
@@ -209,7 +209,7 @@ export const Portfolio = () => {
             </p>
             <div className="">
               <a href="https://github.com/nadim-shahriar?tab=repositories">
-                <div className="bg-black/70 p-6 rounded-lg">⚡ CODE</div>
+                <div className="bg-black/70 p-6 rounded-lg hover:bg-base-300/10 ">⚡ CODE</div>
               </a>
             </div>
           </div>

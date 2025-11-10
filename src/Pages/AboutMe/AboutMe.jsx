@@ -17,14 +17,14 @@ export const AboutMe = () => {
     >
       <div className="flex flex-col items-center">
         <h1 className="text-3xl font-semibold border-4 px-10 p-2">ABOUT ME</h1>
-        <p className="px-4 lg:px-50 text-center py-10">
+        <p className="px-10  lg:px-50 text-justify lg:text-center py-10">
           I am Md. Nadim Shahriar Swajan. I have completed Bachelor in Comuputer
           Science & Engineering form East Dekta University, Chattogram,
           Bangladesh. I am currently exploring the world of Networing. I am
           serving as an Assistant Engineering(Service Management) at TekVision,
-          a sister Consern of Youngone Holdings.{" "}
+          a sister Consern of Youngone Holdings.
         </p>
-        <Link to={'/aboutme'}><button className="btn mt-4 text-black uppercase bg-transparent border-black border-2 border-y-0 rounded-none shadow-none">
+        <Link to={'/aboutme'}><button className="btn mt-4 text-black uppercase bg-transparent border-black border-2 border-y-0 hover:text-black/60 rounded-none shadow-none">
           {" "}
           Explore More
         </button></Link>
@@ -57,9 +57,7 @@ export const AboutMe = () => {
           <div className="relative">
             <h2 className="text-xl uppercase font-bold">MTCNA</h2>
             <p className="textarea-md">
-              Networking professional with CCNA expertise in configuring,
-              managing, and troubleshooting Cisco routers and switches, ensuring
-              secure and efficient enterprise connectivity.
+              Networking professional with MTCNA expertise in configuring, managing, and troubleshooting MikroTik routers and wireless networks, ensuring secure and reliable enterprise connectivity.
             </p>
             <span className="text-6xl opacity-20 absolute -left-6 -top-5">
               <SiMikrotik></SiMikrotik>

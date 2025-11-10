@@ -20,13 +20,13 @@ export const Designed = () => {
       <Navbar2></Navbar2>
       {/* <Link to={'/'} className=""><button className="font1 btn my-5 font-bold">Go to Home</button></Link> */}
       <h2 className="text-2xl font-semibold mb-4 mt-8">Designed Projects</h2>
+      <p className="text-black mb-6">
+        Creative UI/UX and visual design work.
+      </p>
       <div className="grid lg:grid-cols-3 gap-5">
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr4}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr4} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Smart Ticketing</h2>
@@ -42,10 +42,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr2}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr2} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Real State</h2>
@@ -61,10 +58,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr3}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr3} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Chefs Table</h2>
@@ -80,10 +74,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr1}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr1} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Knowladge Cafe</h2>
@@ -99,10 +90,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr5}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr5} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Tea House</h2>
@@ -118,10 +106,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr6}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr6} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Alpha Clash</h2>
@@ -137,10 +122,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr7}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr7} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Car Doctor</h2>
@@ -156,10 +138,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr8}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr8} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Dragon News</h2>
@@ -175,10 +154,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr9}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr9} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Retro Forum</h2>
@@ -194,10 +170,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr10}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr10} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">AI Universe</h2>
@@ -213,10 +186,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr11}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr11} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Penguin Fashion</h2>
@@ -232,10 +202,7 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr12}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr12} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font1 font-bold">Hero Travel</h2>
@@ -251,13 +218,12 @@ export const Designed = () => {
         </div>
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
-            <img
-              src={pr13}
-              className="w-full h-full object-cover object-top"
-            />
+            <img src={pr13} className="w-full h-full object-cover object-top" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title font1 font-bold">Web Developer Protfolio</h2>
+            <h2 className="card-title font1 font-bold">
+              Web Developer Protfolio
+            </h2>
             <p></p>
             <div className="card-actions justify-end">
               <a href="https://nadim-shahriar.github.io/web-developer-portfolio/">

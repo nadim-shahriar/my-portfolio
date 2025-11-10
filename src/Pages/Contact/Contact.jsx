@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <div>
       <div className="flex flex-col py-20  lg:p-20 items-center">
-        <h1 className="text-3xl tracking-widest text-black font2 font-semibold border-4 px-10 p-2">
+        <h1 className="text-3xl tracking-widest uppercase text-black font2 font-semibold border-4 px-10 p-2">
           Contact
         </h1>
         <div className="my-[85px]">
