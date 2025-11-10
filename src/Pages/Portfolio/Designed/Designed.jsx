@@ -23,7 +23,7 @@ export const Designed = () => {
       <p className="text-black mb-6">
         Creative UI/UX and visual design work.
       </p>
-      <div className="grid lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
           <figure className="w-full h-full brightness-150">
             <img src={pr4} className="w-full h-full object-cover object-top" />
