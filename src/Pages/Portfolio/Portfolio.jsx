@@ -71,7 +71,7 @@ export const Portfolio = () => {
             </p>
 
             <div>
-              <div className="grid lg:grid-cols-3 gap-5">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
                 <div className="card bg-base-100 image-full h-72 w-96 shadow-sm">
                   <figure className="w-full h-full brightness-200">
                     <img
