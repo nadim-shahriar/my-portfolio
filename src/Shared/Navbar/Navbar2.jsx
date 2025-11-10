@@ -45,13 +45,15 @@ export const Navbar2 = () => {
         </NavLink>
       </li>
       <li>
-        <a
-          href="https://github.com/nadim-shahriar?tab=repositories"
+        <NavLink
+          to={'/designed'}
           onClick={() => setMenuBtn(false)}
-          className="hover:bg-black hover:text-white rounded-2xl px-3 py-1"
+          className={({ isActive }) =>
+            isActive ? "bg-black text-white rounded-2xl px-3 py-1" : ""
+          }
         >
           Portfolio
-        </a>
+        </NavLink>
       </li>
       <li>
         <NavLink
