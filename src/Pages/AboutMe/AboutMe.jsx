@@ -21,8 +21,8 @@ export const AboutMe = () => {
           I am Md. Nadim Shahriar Swajan. I have completed Bachelor in Comuputer
           Science & Engineering form East Delta University, Chattogram,
           Bangladesh. I am currently exploring the world of Networing. I am
-          serving as an Assistant Engineering(Service Management) at TekVision,
-          a sister Consern of Youngone Holdings.
+          serving as an Assistant Engineering(Service Management) at TekVision (BD) Limited,
+          a sister Concern of Youngone Holdings.
         </p>
         <Link to={'/aboutme'}><button className="btn mt-4 text-black uppercase bg-transparent border-black border-2 border-y-0 hover:text-black/60 rounded-none shadow-none">
           {" "}
