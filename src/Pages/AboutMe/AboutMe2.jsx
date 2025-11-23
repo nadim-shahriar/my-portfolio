@@ -11,7 +11,7 @@ export const AboutMe2 = () => {
         <h1 className="text-3xl font-semibold border-4 px-10 p-2">ABOUT ME</h1>
         <p className="px-4 lg:px-50 text-center py-10">
           I am Md. Nadim Shahriar Swajan. I have completed Bachelor in Comuputer
-          Science & Engineering form East Dekta University, Chattogram,
+          Science & Engineering form East Delta University, Chattogram,
           Bangladesh. I am currently exploring the world of Networing. I am
           serving as an Assistant Engineering(Service Management) at TekVision,
           a sister Consern of Youngone Holdings.{" "}
