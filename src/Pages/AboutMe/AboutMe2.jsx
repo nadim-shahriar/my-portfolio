@@ -14,7 +14,7 @@ export const AboutMe2 = () => {
           Science & Engineering form East Delta University, Chattogram,
           Bangladesh. I am currently exploring the world of Networing. I am
           serving as an Assistant Engineering(Service Management) at TekVision,
-          a sister Consern of Youngone Holdings.{" "}
+          a sister Concern of Youngone Holdings.{" "}
         </p>
       </div>
       <Parallax
