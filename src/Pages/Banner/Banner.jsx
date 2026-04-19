@@ -32,16 +32,18 @@ export const Banner = () => {
             </p>
 
             <div className="flex gap-8 mt-2 lg:mt-16">
+              <button className=" btn px-3 bg-[#C4C4C4] border-none text-3xl ">
               <div
                 style={{ boxShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25)" }}
                 className="bg-[#C4C4C4] rounded-sm"
               >
-                <button className=" btn px-3 bg-[#C4C4C4] border-none text-3xl ">
+                
                   <a href={'https://github.com/nadim-shahriar'}>
                     <FaGithub></FaGithub>
                   </a>
-                </button>
+                
               </div>
+              </button>
               <div
                 style={{ boxShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25)" }}
                 className="bg-[#C4C4C4] rounded-sm"
